@@ -13,6 +13,7 @@
     "license": "Apache-2.0",
     "dependencies": {
         "@types/node": "^13.13.52",
+        "neon": "^2.0.0",
         "node-pre-gyp": "^0.14.0"
     },
     "devDependencies": {

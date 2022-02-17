@@ -1,2 +1,2 @@
-const addon = require("../native");
-module.exports = addon;
+const native = require("../bin-package");
+module.exports = native;
