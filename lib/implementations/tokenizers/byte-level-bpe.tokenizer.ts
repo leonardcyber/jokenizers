@@ -1,16 +1,16 @@
 import { promisify } from "util";
 
-import { byteLevelDecoder } from "../../bindings/decoders";
-import { BPE, BPEOptions, Model } from "../../bindings/models";
+import { byteLevelDecoder } from "../../../bindings/decoders";
+import { BPE, BPEOptions, Model } from "../../../bindings/models";
 import {
   lowercaseNormalizer,
   nfkcNormalizer,
   sequenceNormalizer,
-} from "../../bindings/normalizers";
-import { byteLevelProcessing } from "../../bindings/post-processors";
-import { byteLevelAlphabet, byteLevelPreTokenizer } from "../../bindings/pre-tokenizers";
-import { Tokenizer } from "../../bindings/tokenizer";
-import { bpeTrainer } from "../../bindings/trainers";
+} from "../../../bindings/normalizers";
+import { byteLevelProcessing } from "../../../bindings/post-processors";
+import { byteLevelAlphabet, byteLevelPreTokenizer } from "../../../bindings/pre-tokenizers";
+import { Tokenizer } from "../../../bindings/tokenizer";
+import { bpeTrainer } from "../../../bindings/trainers";
 import { BaseTokenizer, Token } from "./base.tokenizer";
 
 export interface ByteLevelBPETokenizerOptions {

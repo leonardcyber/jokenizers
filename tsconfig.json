@@ -1,7 +1,7 @@
 {
   "include": [
     "./lib",
-    "dist/bindings"
+    "bindings"
   ],
   "compilerOptions": {
     /* Basic Options */

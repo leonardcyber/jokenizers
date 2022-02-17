@@ -1,5 +1,5 @@
-import { PaddingOptions, RawEncoding } from "../bindings/raw-encoding";
-import { mergeEncodings } from "../bindings/utils";
+import { PaddingOptions, RawEncoding } from "../../bindings/raw-encoding";
+import { mergeEncodings } from "../../bindings/utils";
 
 export class Encoding {
   private _attentionMask?: number[];

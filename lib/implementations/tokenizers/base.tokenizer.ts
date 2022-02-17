@@ -1,6 +1,6 @@
 import { promisify } from "util";
 
-import { PostProcessor } from "../../bindings/post-processors";
+import { PostProcessor } from "../../../bindings/post-processors";
 import {
   AddedToken,
   EncodeInput,
@@ -11,7 +11,7 @@ import {
   Tokenizer,
   TruncationConfiguration,
   TruncationOptions,
-} from "../../bindings/tokenizer";
+} from "../../../bindings/tokenizer";
 import { Encoding } from "../encoding";
 
 export type Token = string | AddedToken;
